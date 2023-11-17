@@ -1,0 +1,97 @@
+body{
+    background-image: url(img/Natal.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed
+
+} 
+
+
+.container1 { position: absolute;
+    background-color: rgba(0, 0, 0, 0.712) ; height: 300px; align-items: center; text-align: center; width: 800px;
+    border-radius: 50px; border: solid white; margin-left: 325px; margin-top: 130px;
+}
+#timer {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.contagem{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 50px;
+color: white;
+}
+.btn { margin-left: 300px; margin-top: 40px;
+    border: none;
+    width: 15em;
+    height: 5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: white ;
+    font-size: 13px;
+    background: #000000a1;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+  }
+  
+  .sparkle {
+    fill: #ffffff;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,#927cf3,#210ef4);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9000ff;
+    color: black;
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 
+
+.progress { 
+    width: 750px;
+    background-color: #3421c0;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    position: relative;
+  
+}
+
+.progress-bar {
+    width: 5%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #927cf3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+   
